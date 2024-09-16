@@ -6,3 +6,12 @@
     --text-color:#333;
     --card-bg-color:#fff;
 }
+
+.dark-mode{
+    --primary-color: #2980b9;
+    --secondary-color: #27ae60;
+    --accent-color: #c0392b;
+    --background-color: #1a1a1a;
+    --text-color: #f4f4f4;
+    --card-bg-color: #2c2c2c;
+}
