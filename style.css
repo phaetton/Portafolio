@@ -1,6 +1,8 @@
 :root {
-    --primary-color: #3498db;
-    --secundary-color: #2ecc71;
+    /* --primary-color: #3498db; */
+    --primary-color:rgb(1, 58, 85);
+    /* --secundary-color: #2ecc71; */
+    --secundary-color:rgb(19, 139, 148);
     --accent-color: #e74c3c;
     --background-color: #f4f4f4;
     --text-color: #333;
@@ -16,6 +18,20 @@
     --card-bg-color: #2c2c2c;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
 header {
     background-color: var(--primary-color);
     padding: 1rem 5%;
@@ -23,4 +39,67 @@ header {
     width: 100%;
     z-index: 5;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+#dark-mode-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    background: radial-gradient(ellipse at bottom,var(--secundary-color) 5%,var(--primary-color) 50%, black 100%);
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
