@@ -22,7 +22,7 @@ darkModeToggle.addEventListener('click',
     }
 )
 
-//aminacion de scroll
+//aminacion de scroll smoth
 const observable = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -33,5 +33,7 @@ const observable = new IntersectionObserver((entries) => {
     })
 })
 
-const hiddenElements= document.querySelectorAll('.hidden');
-hiddenElements.forEach((elemento)=>observable.observe(elemento));
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach(
+    (elemento) => observable.observe(elemento)
+);
