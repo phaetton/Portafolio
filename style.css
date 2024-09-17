@@ -1,20 +1,24 @@
 :root {
     /* --primary-color: #3498db; */
-    --primary-color: rgb(1, 58, 85);
     /* --secundary-color: #2ecc71; */
+    --primary-color: rgb(1, 58, 85);
     --secundary-color: rgb(19, 139, 148);
     --accent-color: #e74c3c;
     --background-color: #f4f4f4;
     --text-color: #333;
+    --text-bgwhite-color:var(--secundary-color);
     --card-bg-color: #fff;
 }
 
 .dark-mode {
-    --primary-color: #2980b9;
-    --secondary-color: #27ae60;
-    --accent-color: #c0392b;
+    /* --primary-color: #2980b9;
+    --secondary-color: #27ae60; */
+    --primary-color: rgb(1, 24, 34);
+    --secundary-color: rgb(4, 29, 31);
+    --accent-color: #8f2a1f;
     --background-color: #1a1a1a;
     --text-color: #f4f4f4;
+    --text-bgwhite-color:white;
     --card-bg-color: #2c2c2c;
 }
 
@@ -129,7 +133,7 @@ nav {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: var(--primary-color);
+    color: var(--text-bgwhite-color);
 }
 
 .project-grid {
@@ -160,7 +164,7 @@ nav {
 .project-card h3 {
     font-size: 1.5rem;
     margin: 1rem;
-    color: var(--primary-color);
+    color: var(--text-bgwhite-color);
 }
 
 .project-card p {
@@ -214,8 +218,8 @@ nav {
 }
 
 footer{
-    background-color: var(--text-color);
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
     padding: 2rem;
 }
