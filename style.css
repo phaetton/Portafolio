@@ -40,10 +40,10 @@ body {
 
 header {
     background-color: var(--primary-color);
-    padding: 1rem 5%;
     position: fixed;
     width: 100%;
-    z-index: 5;
+    z-index: 1000;
+    padding: 1rem 5%;
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 }
 
@@ -51,7 +51,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
 }
 
 .logo {
@@ -128,8 +127,10 @@ nav {
     background-color: #c0392b;
 }
 
+
+
 .projects {
-    padding: 4rem 5%;
+    padding: 5rem 5%;
 }
 
 .projects h2 {
@@ -192,7 +193,7 @@ nav {
 .skills {
     background-color: var(--primary-color);
     color: white;
-    padding: 4rem 5%;
+    padding: 5rem 5%;
     text-align: center;
 }
 
@@ -236,7 +237,7 @@ footer {
 
 
 .contact {
-    padding: 4rem 5%;
+    padding: 5rem 5%;
 }
 
 .contact h2 {
