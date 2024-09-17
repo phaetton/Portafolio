@@ -212,6 +212,13 @@ nav {
 .skill-item:hover{
     transform: scale(1.05);
 }
+
+footer{
+    background-color: var(--text-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
 /* .hidden{
     opacity: 0;
     filter:0;
