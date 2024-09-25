@@ -1,6 +1,4 @@
 :root {
-    /* --primary-color: #3498db; */
-    /* --secundary-color: #2ecc71; */
     --primary-color: rgb(1, 58, 85);
     --secundary-color: rgb(19, 139, 148);
     --tertiary-color: #3498db;
@@ -12,8 +10,6 @@
 }
 
 .dark-mode {
-    /* --primary-color: #2980b9;
-    --secondary-color: #27ae60; */
     --primary-color: rgb(1, 24, 34);
     --secundary-color: rgb(4, 29, 31);
     --tertiary-color: #2980b9;
